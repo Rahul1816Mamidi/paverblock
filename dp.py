@@ -8,7 +8,7 @@ import seaborn as sns
 # --- Load data and train model once ---
 @st.cache_data
 def load_data_and_train():
-    df = pd.read_csv(r"C:\Users\bhavy\OneDrive\Desktop\Rahul\dpdataset.csv")
+    df = pd.read_csv(r"C:\Users\bhavy\OneDrive\Desktop\Rahul\dppm set\dpdataset.csv")
 
     X = df[['LDPE', 'Kaolin', 'Temp']]
     y = df['Compressive_Mpa']
